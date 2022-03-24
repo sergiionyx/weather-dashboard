@@ -14,7 +14,100 @@
     <header class="bg-blue d-flex justify-content-center p-2">
         <h1 class="text-white">Weather Dashboard</h1>
     </header>
+    <div class="row container-fluid">
+        <!-- left column -->
+        <div class="col-3">
+            <!-- Search -->
+            <div class="pb-4 border-bottom border-dark">
+                <form>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-12 col-form-label">
+                            <h2 class="fw-bolder">Search for a city:</h2>
+                        </label>
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="San Diego">
+                        </div>
+                        <div class="col-sm-12 mt-3">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- List of cities from local storage -->
+            <div>
+                <div class="col-sm-12 mt-3">
+                    <button class="btn btn-secondary text-dark ">Search</button>
+                </div>
+                <div class="col-sm-12 mt-3">
+                    <button class="btn btn-secondary text-dark">Search</button>
+                </div>
+                <div class="col-sm-12 mt-3">
+                    <button class="btn btn-secondary text-dark">Search</button>
+                </div>
+                <div class="col-sm-12 mt-3">
+                    <button class="btn btn-secondary text-dark">Search</button>
+                </div>
+            </div>
+        </div>
+        <!-- right wide column -->
+        <div class="col-9">
+            <!-- Weather on selected city -->
+            <div class="border border-2 border-dark p-2">
+                <h2 class="fw-bolder">Atlanta</h2>
+                <h5>Temp:</h5>
+                <h5>Wind:</h5>
+                <h5>Humidity:</h5>
+                <h5>UV Index:</h5>
 
+            </div>
+            <!-- 5-Day forecast -->
+            <div>
+                5-Day Forecast
+                <div class="row">
+                    <ul class="col-2">
+                        <li>next 1 day forecast</li>
+                        <li>next 2 day forecast</li>
+                        <li>next 3 day forecast</li>
+                        <li>next 4 day forecast</li>
+                        <li>next 5 day forecast</li>
+                    </ul>
+
+                    <ul class="col-2">
+                        <li>next 1 day forecast</li>
+                        <li>next 2 day forecast</li>
+                        <li>next 3 day forecast</li>
+                        <li>next 4 day forecast</li>
+                        <li>next 5 day forecast</li>
+                    </ul>
+
+                    <ul class="col-2">
+                        <li>next 1 day forecast</li>
+                        <li>next 2 day forecast</li>
+                        <li>next 3 day forecast</li>
+                        <li>next 4 day forecast</li>
+                        <li>next 5 day forecast</li>
+                    </ul>
+
+                    <ul class="col-2">
+                        <li>next 1 day forecast</li>
+                        <li>next 2 day forecast</li>
+                        <li>next 3 day forecast</li>
+                        <li>next 4 day forecast</li>
+                        <li>next 5 day forecast</li>
+                    </ul>
+
+                    <ul class="col-2">
+                        <li>next 1 day forecast</li>
+                        <li>next 2 day forecast</li>
+                        <li>next 3 day forecast</li>
+                        <li>next 4 day forecast</li>
+                        <li>next 5 day forecast</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

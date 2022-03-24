@@ -1,0 +1,10 @@
+.bg-blue {
+    background-image: linear-gradient(to right, #147abe, #110449);
+}
+
+button {
+    width: 100% !important;
+}
+li {
+    list-style: none;
+}

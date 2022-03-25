@@ -5,6 +5,39 @@
 button {
     width: 100% !important;
 }
+
+#row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-2 {
+    color: antiquewhite;
+    background-color: rgba(43, 43, 77, 0.788);
+}
+
 li {
+    font-size: larger;
+    padding: 8px;
     list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+.uv-low {
+    background-color: green;
+    width: fit-content;
+}
+
+.uv-mid {
+    background-color: orange;
+    width: fit-content;
+}
+
+.uv-high {
+    background-color: tomato;
+    width: fit-content;
 }

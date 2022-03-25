@@ -25,7 +25,7 @@
                             <h2 class="fw-bolder">Search for a city:</h2>
                         </label>
                         <div class="col-sm-12">
-                            <input id="city" type="city" class="form-control" id="inputEmail3" placeholder="San Diego">
+                            <input id="city" type="city" class="form-control" placeholder="San Diego">
                         </div>
                         <div class="col-sm-12 mt-3">
                             <button id="search" type="submit" class="btn btn-primary">Search</button>
@@ -34,78 +34,12 @@
                 </form>
             </div>
             <!-- List of cities from local storage -->
-            <div>
-                <div class="col-sm-12 mt-3">
-                    <button class="btn btn-secondary text-dark ">Search</button>
-                </div>
-                <div class="col-sm-12 mt-3">
-                    <button class="btn btn-secondary text-dark">Search</button>
-                </div>
-                <div class="col-sm-12 mt-3">
-                    <button class="btn btn-secondary text-dark">Search</button>
-                </div>
-                <div class="col-sm-12 mt-3">
-                    <button class="btn btn-secondary text-dark">Search</button>
-                </div>
+            <div id="saved-cities">
             </div>
         </div>
         <!-- right wide column -->
-        <div class="col-9">
-            <!-- Weather on selected city -->
-            <div class="border border-2 border-dark p-2">
-                <h2 class="fw-bolder">Atlanta</h2>
-                <h5>Temp:</h5>
-                <h5>Wind:</h5>
-                <h5>Humidity:</h5>
-                <h5>UV Index:</h5>
-
-            </div>
-            <!-- 5-Day forecast -->
-            <div>
-                5-Day Forecast
-                <div class="row">
-                    <ul class="col-2">
-                        <li>next 1 day forecast</li>
-                        <li>next 2 day forecast</li>
-                        <li>next 3 day forecast</li>
-                        <li>next 4 day forecast</li>
-                        <li>next 5 day forecast</li>
-                    </ul>
-
-                    <ul class="col-2">
-                        <li>next 1 day forecast</li>
-                        <li>next 2 day forecast</li>
-                        <li>next 3 day forecast</li>
-                        <li>next 4 day forecast</li>
-                        <li>next 5 day forecast</li>
-                    </ul>
-
-                    <ul class="col-2">
-                        <li>next 1 day forecast</li>
-                        <li>next 2 day forecast</li>
-                        <li>next 3 day forecast</li>
-                        <li>next 4 day forecast</li>
-                        <li>next 5 day forecast</li>
-                    </ul>
-
-                    <ul class="col-2">
-                        <li>next 1 day forecast</li>
-                        <li>next 2 day forecast</li>
-                        <li>next 3 day forecast</li>
-                        <li>next 4 day forecast</li>
-                        <li>next 5 day forecast</li>
-                    </ul>
-
-                    <ul class="col-2">
-                        <li>next 1 day forecast</li>
-                        <li>next 2 day forecast</li>
-                        <li>next 3 day forecast</li>
-                        <li>next 4 day forecast</li>
-                        <li>next 5 day forecast</li>
-                    </ul>
-
-                </div>
-            </div>
+        <div id="curentDay" class="col-9 hide">
+          
         </div>
     </div>
 
